@@ -1,0 +1,35 @@
+.container{
+	width:1170px;
+}
+
+.clienttest{
+	background:#37353a;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; // first!
+	filter: alpha(opacity=80);	
+}
+
+.teamm{
+	behavior: url(css/PIE.htc);
+}
+
+.flexslider .slides img{
+}
+
+css3-container{
+	z-index:1!important;
+}
+
+.mask{
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; // first!
+	filter: alpha(opacity=60);*/
+}
+
+.mask:hover {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; // first!
+	filter: alpha(opacity=0);*/
+}
+
+.clientmain {
+	display: block;
+}
+
