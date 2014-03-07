@@ -15,12 +15,42 @@
   color: #aaa;
   margin-bottom: 10px;
 }
+.topbar {
+  max-height: 70px;
+  clear: all;
+}
+.section2-text h3 {
+  font-size: 17px;
+}
+.logo {
+  padding: 10px 0;
+}
+.logo img {
+  height: 40px;
+  margin-top: 5px;
+  width: auto;
+}
 ul.possible-users li {
   margin-bottom: 10px;
+  padding-left: 50px;
+  position: relative;
+}
+ul.possible-users li:before {
+  content: '';
+  display: block;
+  color: #03bd9d;
+  width: 30px;
+  height: 30px;
+  background: url('../images/check.png') no-repeat;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -15px;
 }
 .team {
-  padding-bottom: 400px;
-  background: url(../images/aboutmap.png) center 700px no-repeat #5f5869;
+  padding-bottom: 200px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  background: url(../images/map.png) center 500px no-repeat #5f5869;
 }
 div.rel {
   position: relative;
